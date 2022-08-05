@@ -1,0 +1,85 @@
+span {
+    display: block;
+}
+
+.principal {
+
+    text-align: center;
+    background-color: #e2f6d5;
+    background-image: url(../imgs/cupcake.jpg);
+    height: 10em;
+    background-size: 21%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 5px;
+
+}
+
+.body {
+    
+    margin: 0px 200px 100px 200px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+@media (max-width: 800px) {
+    .body {
+        margin: 1px;
+    }
+    .principal {
+        text-align: center;
+        background-image: none;
+    }
+    
+  }
+
+.titulo {
+    color: #41c5d3;
+
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #41c5d3
+}
+
+.nombre {
+    color: #ff4b4b;
+}
+
+.producto {
+    color: #2aa1af;
+    text-align: center;
+}
+
+.descripcion {
+    color: black;
+
+}
+
+.precio {
+    color: #2aa1af;
+    text-align: center;
+}
+
+.pastel {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #2aa1af;
+    border-radius: 20%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2aa1af;
+    color: #f7f7f7;
+    padding: 10px;
+
+}
+
+body{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}

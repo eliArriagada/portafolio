@@ -1,0 +1,97 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+    padding: 7px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.iguana {
+    width: 100%;
+}
+
+.etapa1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flow-root;
+}
+
+.descripcion {
+    float: left;
+    width: 45%;
+    padding-right: 106px;
+    margin-top: 76px;
+    margin-bottom: 75px;
+    font-weight: 300;
+}
+
+.descripcion p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.iguana2 {
+    width: 400px;
+    margin-top: 45px;
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+.caracteristicas .titulo {
+    font-weight: 500;
+    font-size: 40px
+}
+
+.caracteristica {
+    width: 20%;
+    padding: 1.5%;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.caracteristica i {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.galeria {
+    padding-top: 73px;
+    padding-bottom: 73px;
+    width: 100%;
+    text-align: center;
+}
+
+.iguana3 {
+    width: 316px;
+    padding-right: 8px;
+    height: 202px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    background-color: #1E1A13;
+    font-size: 20px;
+    font-weight: 300;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
