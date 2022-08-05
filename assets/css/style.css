@@ -1,0 +1,55 @@
+li{
+    list-style:none;
+}
+.section-heading {
+    font-size: 4.5rem;
+}
+
+.font-name{
+    font-family: 'Oswald', sans-serif;
+}
+.bg-info, .btn-info {
+    background-color: #6610f2 !important;
+    border: 0rem;
+}
+.btn-outline-info{
+    border-color: #6610f2;
+    color: #6610f2;;
+}
+
+.color-info {
+    color: #6610f2;
+}
+.color-html {
+    color: orangered;
+}
+.color-css {
+    color: blue;
+}
+.color-boostrap {
+    color: purple;
+}
+.color-git {
+    color: red;
+}
+.background-1 {
+    background-color: #331143;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo-hero {
+    display:none;
+    }
+}
+
+.card-caracteristicas {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+footer{
+    background-color: #22303A;
+    color: #ccd1e5;
+}
